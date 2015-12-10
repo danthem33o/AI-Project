@@ -1,0 +1,13 @@
+*{-fx-background-color: #383838;}
+
+.main{
+    -fx-background-color: #a1b56c;
+}
+
+.label{
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-text-fill: snow;
+}

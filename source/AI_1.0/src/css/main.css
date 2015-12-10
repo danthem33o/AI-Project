@@ -1,0 +1,80 @@
+*{-fx-text-fill: snow;}
+
+.root {
+    -fx-background-color: #282828 ;
+}
+
+#content-pane{
+    /*-fx-alignment: top-left;*/
+}
+
+/*************************************************
+ *                   MENU BAR                    *
+ *************************************************/
+.menu-bar{
+    -fx-background-color: #383838;
+    -fx-border-color: #282828;
+}
+
+.menu{
+    -fx-background-color: #383838;
+}
+
+.menu-item{
+    -fx-background-color: #383838;
+    -fx-border-width: 7px;
+    -fx-border-color: #383838;
+    -fx-opacity: 0.6;
+}
+
+.menu-item:hover{
+    -fx-background-color: #282828;
+}
+
+.menu-item.separator{
+    -fx-border-color: #282828;
+}
+
+.separator-menu-item{
+    -fx-border-color: #282828;
+
+}
+
+.sdi{
+    -fx-border-color: #282828;
+}
+
+
+
+/**************************************************
+ *                   TREE VIEW                    *
+ **************************************************/
+.tree-view{
+    -fx-background-color: #282828;
+    -fx-border-color: #383838;
+    -fx-border-width: 7px;
+}
+
+.tree-item{
+    -fx-background-color: #282828;
+}
+
+.tree-cell:hover {
+    -fx-background-color: #383838;
+}
+
+.tree-cell{
+    -fx-background-color: #282828;
+}
+
+/**************************************************
+ *                    TAB VIEW                    *
+ **************************************************/
+.tab-pane{
+    -fx-background-color: #282828;
+    -fx-border-color: #383838;
+    -fx-border-width: 7px;
+}
+.tab{
+    -fx-background-color: #383838;
+}

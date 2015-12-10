@@ -1,0 +1,65 @@
+*{
+    -fx-background-color: #28282800;
+    -fx-text-fill: snow;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+#pane{
+    -fx-background-color: transparent;
+    -fx-background-image: url("blacknpurple1.jpg");
+    -fx-background-image-opacity: 0.6;
+    -fx-background-position: center center;
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+
+}
+
+#welcome-label{
+    -fx-font-size: 20px;
+    -fx-padding: 30px 0 0 0;
+}
+
+#welcome-label-ai {
+    -fx-font-size: 45px;
+    -fx-padding: 0 10px 0 0;
+    -fx-text-fill: #7cafc2;
+}
+
+#welcome-label-module{
+    -fx-font-size: 25px;
+    -fx-text-fill: #7cafc2;
+}
+
+
+#content-bar{
+    -fx-background-color: #ffffff6600;
+    -fx-padding: 0 5 0 5;
+}
+
+#tool-butt{
+    -fx-background-color: #38383877;
+    -fx-effect:dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-max-width: 200px;
+    -fx-min-width: 200px;
+    -fx-max-height: 100px;
+
+}
+
+#tool-add{
+    -fx-graphic: url("fileV.png");
+
+    -fx-background-color: #38383877;
+    -fx-effect:dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-max-width: 200px;
+    -fx-min-width: 200px;
+    -fx-max-height: 100px;
+}
+
+#gp{
+    -fx-background-color: #38383855;
+}
+
+#tool-but:hover{
+    -fx-background-color: #282828;
+}
