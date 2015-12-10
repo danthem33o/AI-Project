@@ -5,6 +5,8 @@ package ai.expert_system;
  */
 public class WorkingMemory {
 
+    //sam sucks, danny rules
+
     
 
     public WorkingMemory(){
